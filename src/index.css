@@ -1,0 +1,6 @@
+﻿@tailwind base;@tailwind components;@tailwind utilities;
+@layer base{*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f6f7f9;color:#111827;font-family:Inter,sans-serif;-webkit-font-smoothing:antialiased;font-feature-settings:'cv02','cv03','cv04','cv11'}button,a,select{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #3157e8;outline-offset:2px}::selection{background:#dbeafe;color:#1e3a8a}}
+@media print{aside,header,button{display:none!important}body{background:#fff}.md\:pl-64{padding-left:0!important}}
+
+@layer utilities{.enterprise-grid{background-image:linear-gradient(#e7eaf0 1px,transparent 1px),linear-gradient(90deg,#e7eaf0 1px,transparent 1px);background-size:40px 40px}.metric-number{font-variant-numeric:tabular-nums;letter-spacing:-.04em}.dot-pattern{background-image:radial-gradient(#cbd5e1 .7px,transparent .7px);background-size:14px 14px}}
+
